@@ -1,0 +1,22 @@
+logging:
+  config: logback.xml
+  #level:
+    #com.itcode.course03.factory: trace
+spring:
+  profiles:
+    active:
+      -pro
+url:
+  #配置订单微服务地址
+  orderUrl: http://localhost:8002
+  #配置用户微服务地址
+  userUrl: http://localhost:8001
+  #配置购物车微服务地址
+  shopUrl: http://localhost:8004
+  #server:
+  #port: 8001
+  #url:
+    #orderUrl: http://localhost:8002
+
+#url:
+  #orderUrl:http://localhost:8082
